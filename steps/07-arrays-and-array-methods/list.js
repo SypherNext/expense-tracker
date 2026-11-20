@@ -1,0 +1,14 @@
+const expenses = [
+  { id: 1, title: 'Groceries', cents: 5420, category: 'food', date: '2026-11-02' },
+  { id: 2, title: 'Bus pass', cents: 3000, category: 'transport', date: '2026-11-01' },
+  { id: 3, title: 'Coffee', cents: 450, category: 'food', date: '2026-11-03' },
+  { id: 4, title: 'Cinema', cents: 1200, category: 'fun', date: '2026-11-03' },
+  { id: 5, title: 'Phone bill', cents: 2500, category: 'bills', date: '2026-11-04' },
+];
+
+console.log(expenses.length);
+console.log(expenses[2].title, expenses[2].cents);
+
+for (const expense of expenses) {
+  console.log(`${expense.id}. ${expense.title}`);
+}
